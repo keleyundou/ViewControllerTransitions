@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFA1F23FEFA6F62C2E7325E4582B11D /* Pods-RTPopAnimationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6B86EE18608A90A42CBA8BE75BE0C /* Pods-RTPopAnimationTests-dummy.m */; };
+		2C8A78DECD14E14CB52780CF3B2B881B /* RTTransitioningDelegateCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92372756DEFC9EFF541D1B639A6E663F /* RTTransitioningDelegateCenter.m */; };
+		85D40E08837986402F4CC229507304FA /* RTPopPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963A05769772ABF3B9BA861797F76BDA /* RTPopPresentationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86E963973341C0F6664BCFF67748DF34 /* RTPopAnimatedDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F69F32FA07C4CB2F3DFCBDECBBF27ABD /* RTPopAnimatedDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2859461F81B6A5C7B4157962CF20486 /* RTTransitioningDelegateCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66ABDD066D8CB225FA8BE1D06AE4638C /* RTTransitioningDelegateCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACF68BCC6FD82C4DF03E75805065504B /* RTAnimatedTransitioningController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4ABF5B33D67FFBE7EC5930386BC47D /* RTAnimatedTransitioningController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B274BE44C7811444AD7841D9AD3BD5FA /* RTAnimatedTransitioningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355BC04ACA44D360A73D00843D4975C8 /* RTAnimatedTransitioningController.m */; };
+		CE04A2B6D24FBAE9C6F6524C2BFF7268 /* RTPopPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1B0C5D80560FC46DB9DCCBDEF9D5F /* RTPopPresentationController.m */; };
+		D100C1E0AE342767930450ECE6F36122 /* Pods-RTPopAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD343F02776DC0E291D9B0E1EBE88333 /* Pods-RTPopAnimation-dummy.m */; };
+		DF28EF6E54C4A105EE1C845DC33E1E97 /* Pods-RTPopAnimationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443EF7955B83AC7AFB8FC63D5A419D3 /* Pods-RTPopAnimationUITests-dummy.m */; };
+		F63B5BFB6F38F6AEE9A46B161F64D2B2 /* RTAnimatedTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CD53CB2B635E16E0094640F64AD92 /* RTAnimatedTransition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2461E4C6517020FD270EBA6ED8F1FD94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6F917368BDCE638238388B2D5E91DC;
+			remoteInfo = "Pods-RTPopAnimation";
+		};
+		DE0CC35ADCCC8FC049F88A8B4ACD029C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6F917368BDCE638238388B2D5E91DC;
+			remoteInfo = "Pods-RTPopAnimation";
+		};
+		EAC7EC4364FAA92E8EC71D0C4DB7D9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6AAA1200110B1D2F7991D4D8E5811A;
+			remoteInfo = RTAnimatedTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0250013F78B8D9ABB04E557258A4E029 /* Pods-RTPopAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0443EF7955B83AC7AFB8FC63D5A419D3 /* Pods-RTPopAnimationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTPopAnimationUITests-dummy.m"; sourceTree = "<group>"; };
+		1268A7777F7E32D6E8072EA2379DDF67 /* Pods-RTPopAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		1627C42BC0728834A158BAF48A355552 /* Pods-RTPopAnimationTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimationTests-frameworks.sh"; sourceTree = "<group>"; };
+		162B3A70B52A92D4F00CF06FC266BCDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		162BFE01C779AF00E655792A1D94A4DF /* Pods-RTPopAnimationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimationUITests-frameworks.sh"; sourceTree = "<group>"; };
+		187C280D43EB9FF452D1297AE66ECEFC /* Pods-RTPopAnimationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTPopAnimationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26A6B86EE18608A90A42CBA8BE75BE0C /* Pods-RTPopAnimationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTPopAnimationTests-dummy.m"; sourceTree = "<group>"; };
+		27307F1DEFAA8E80BB7B5AD34B3DA066 /* Pods-RTPopAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BFAB6033DC9A814DB7A4F3E7BA0C776 /* Pods-RTPopAnimation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTPopAnimation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		355BC04ACA44D360A73D00843D4975C8 /* RTAnimatedTransitioningController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTAnimatedTransitioningController.m; path = RTAnimatedTransition/RTAnimatedTransitioningController.m; sourceTree = "<group>"; };
+		573B43F1D34CA201F7AAFB7F932CBD0C /* RTAnimatedTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RTAnimatedTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B1CD53CB2B635E16E0094640F64AD92 /* RTAnimatedTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTAnimatedTransition-dummy.m"; sourceTree = "<group>"; };
+		5C1D4F7A4C6059A309B44CFC324457A3 /* RTAnimatedTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTAnimatedTransition-prefix.pch"; sourceTree = "<group>"; };
+		66ABDD066D8CB225FA8BE1D06AE4638C /* RTTransitioningDelegateCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTTransitioningDelegateCenter.h; path = RTAnimatedTransition/RTTransitioningDelegateCenter.h; sourceTree = "<group>"; };
+		6A4ABF5B33D67FFBE7EC5930386BC47D /* RTAnimatedTransitioningController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTAnimatedTransitioningController.h; path = RTAnimatedTransition/RTAnimatedTransitioningController.h; sourceTree = "<group>"; };
+		6D1644969944E6D0C5158A776FE675DC /* Pods-RTPopAnimationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTPopAnimationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EF1B0C5D80560FC46DB9DCCBDEF9D5F /* RTPopPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTPopPresentationController.m; path = RTAnimatedTransition/RTPopPresentationController.m; sourceTree = "<group>"; };
+		79F39207F830D7338CF87AB5A13F3AB6 /* Pods-RTPopAnimation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimation-frameworks.sh"; sourceTree = "<group>"; };
+		7A28ACE0614C6B9B244ED8DF8C5A0475 /* libPods-RTPopAnimationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RTPopAnimationTests.a"; path = "libPods-RTPopAnimationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD276B04497F9582BF8B2F7B6E1EC0A /* libRTAnimatedTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRTAnimatedTransition.a; path = libRTAnimatedTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8536C6C29FDD785D676B402FF268F620 /* libPods-RTPopAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RTPopAnimationUITests.a"; path = "libPods-RTPopAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD745193468591B6DF2F6BB0C56AE5 /* libPods-RTPopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RTPopAnimation.a"; path = "libPods-RTPopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9D91CE360A6B6A9CE03210F26CDA9F /* Pods-RTPopAnimation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTPopAnimation-acknowledgements.plist"; sourceTree = "<group>"; };
+		92372756DEFC9EFF541D1B639A6E663F /* RTTransitioningDelegateCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTTransitioningDelegateCenter.m; path = RTAnimatedTransition/RTTransitioningDelegateCenter.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963A05769772ABF3B9BA861797F76BDA /* RTPopPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTPopPresentationController.h; path = RTAnimatedTransition/RTPopPresentationController.h; sourceTree = "<group>"; };
+		9BCE0AF1D7497C41F69FD6971700B501 /* Pods-RTPopAnimationTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimationTests-resources.sh"; sourceTree = "<group>"; };
+		9D9F4C87954C6AFA9199B4DE9673EB0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2500DEC85AC86D8C2F4A39B823243B2 /* Pods-RTPopAnimationUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimationUITests-resources.sh"; sourceTree = "<group>"; };
+		AAAAD0AF7E1D5569C4632D9106AB7693 /* RTAnimatedTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTAnimatedTransition.xcconfig; sourceTree = "<group>"; };
+		AD343F02776DC0E291D9B0E1EBE88333 /* Pods-RTPopAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTPopAnimation-dummy.m"; sourceTree = "<group>"; };
+		BB2758E83214EB084AD10EA5CB81A64B /* Pods-RTPopAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEBD22B6C08283AF0E05BA70C7FF051 /* Pods-RTPopAnimationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTPopAnimationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E78FB3C4BC225400189931B05217B37C /* Pods-RTPopAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		F277EDBFAB0B76221B56AB9DED739FEC /* Pods-RTPopAnimationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTPopAnimationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F31A9EBF39DA8639C286D851CE66586D /* Pods-RTPopAnimation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTPopAnimation-resources.sh"; sourceTree = "<group>"; };
+		F65EEDA47058080BBA5E86FEADB727E1 /* Pods-RTPopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTPopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		F69F32FA07C4CB2F3DFCBDECBBF27ABD /* RTPopAnimatedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTPopAnimatedDelegate.h; path = RTAnimatedTransition/RTPopAnimatedDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E52326715235431677BE6B4D73229B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F3084B6406567BB9BB4F78BFE769E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779229CB2AA22067CDF1420C17D950C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40249CAE2E1D34537165FA3D015CD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A382E8D9767B7DB808B159320BD68A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				739148DE652F7E924238CC1AC55F5E15 /* RTAnimatedTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F747B67EB56A543C78DEF4C7DF704B1 /* Pods-RTPopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2BFAB6033DC9A814DB7A4F3E7BA0C776 /* Pods-RTPopAnimation-acknowledgements.markdown */,
+				8F9D91CE360A6B6A9CE03210F26CDA9F /* Pods-RTPopAnimation-acknowledgements.plist */,
+				AD343F02776DC0E291D9B0E1EBE88333 /* Pods-RTPopAnimation-dummy.m */,
+				79F39207F830D7338CF87AB5A13F3AB6 /* Pods-RTPopAnimation-frameworks.sh */,
+				F31A9EBF39DA8639C286D851CE66586D /* Pods-RTPopAnimation-resources.sh */,
+				F65EEDA47058080BBA5E86FEADB727E1 /* Pods-RTPopAnimation.debug.xcconfig */,
+				1268A7777F7E32D6E8072EA2379DDF67 /* Pods-RTPopAnimation.release.xcconfig */,
+			);
+			name = "Pods-RTPopAnimation";
+			path = "Target Support Files/Pods-RTPopAnimation";
+			sourceTree = "<group>";
+		};
+		5367841C2108EBFCC93E04833CE57F39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAD0AF7E1D5569C4632D9106AB7693 /* RTAnimatedTransition.xcconfig */,
+				5B1CD53CB2B635E16E0094640F64AD92 /* RTAnimatedTransition-dummy.m */,
+				5C1D4F7A4C6059A309B44CFC324457A3 /* RTAnimatedTransition-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "RTPopAnimation/Pods/Target Support Files/RTAnimatedTransition";
+			sourceTree = "<group>";
+		};
+		739148DE652F7E924238CC1AC55F5E15 /* RTAnimatedTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6A4ABF5B33D67FFBE7EC5930386BC47D /* RTAnimatedTransitioningController.h */,
+				355BC04ACA44D360A73D00843D4975C8 /* RTAnimatedTransitioningController.m */,
+				F69F32FA07C4CB2F3DFCBDECBBF27ABD /* RTPopAnimatedDelegate.h */,
+				963A05769772ABF3B9BA861797F76BDA /* RTPopPresentationController.h */,
+				6EF1B0C5D80560FC46DB9DCCBDEF9D5F /* RTPopPresentationController.m */,
+				66ABDD066D8CB225FA8BE1D06AE4638C /* RTTransitioningDelegateCenter.h */,
+				92372756DEFC9EFF541D1B639A6E663F /* RTTransitioningDelegateCenter.m */,
+				857A29EB52CB0EE948FFA0C40EA779D7 /* Pod */,
+				5367841C2108EBFCC93E04833CE57F39 /* Support Files */,
+			);
+			name = RTAnimatedTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				45A382E8D9767B7DB808B159320BD68A /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				B02912152AF024F38A7CD2F2BE4CF891 /* Products */,
+				940D829FD59844697F7AFF8771557550 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		857A29EB52CB0EE948FFA0C40EA779D7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				162B3A70B52A92D4F00CF06FC266BCDD /* LICENSE */,
+				9D9F4C87954C6AFA9199B4DE9673EB0B /* README.md */,
+				573B43F1D34CA201F7AAFB7F932CBD0C /* RTAnimatedTransition.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		940D829FD59844697F7AFF8771557550 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F747B67EB56A543C78DEF4C7DF704B1 /* Pods-RTPopAnimation */,
+				ECC15DFBE64173804FE4009B63755D04 /* Pods-RTPopAnimationTests */,
+				B895CCC2581A21F5A62689DCF24104B3 /* Pods-RTPopAnimationUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B02912152AF024F38A7CD2F2BE4CF891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FD745193468591B6DF2F6BB0C56AE5 /* libPods-RTPopAnimation.a */,
+				7A28ACE0614C6B9B244ED8DF8C5A0475 /* libPods-RTPopAnimationTests.a */,
+				8536C6C29FDD785D676B402FF268F620 /* libPods-RTPopAnimationUITests.a */,
+				7FD276B04497F9582BF8B2F7B6E1EC0A /* libRTAnimatedTransition.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B895CCC2581A21F5A62689DCF24104B3 /* Pods-RTPopAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187C280D43EB9FF452D1297AE66ECEFC /* Pods-RTPopAnimationUITests-acknowledgements.markdown */,
+				F277EDBFAB0B76221B56AB9DED739FEC /* Pods-RTPopAnimationUITests-acknowledgements.plist */,
+				0443EF7955B83AC7AFB8FC63D5A419D3 /* Pods-RTPopAnimationUITests-dummy.m */,
+				162BFE01C779AF00E655792A1D94A4DF /* Pods-RTPopAnimationUITests-frameworks.sh */,
+				A2500DEC85AC86D8C2F4A39B823243B2 /* Pods-RTPopAnimationUITests-resources.sh */,
+				0250013F78B8D9ABB04E557258A4E029 /* Pods-RTPopAnimationUITests.debug.xcconfig */,
+				27307F1DEFAA8E80BB7B5AD34B3DA066 /* Pods-RTPopAnimationUITests.release.xcconfig */,
+			);
+			name = "Pods-RTPopAnimationUITests";
+			path = "Target Support Files/Pods-RTPopAnimationUITests";
+			sourceTree = "<group>";
+		};
+		ECC15DFBE64173804FE4009B63755D04 /* Pods-RTPopAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1644969944E6D0C5158A776FE675DC /* Pods-RTPopAnimationTests-acknowledgements.markdown */,
+				CDEBD22B6C08283AF0E05BA70C7FF051 /* Pods-RTPopAnimationTests-acknowledgements.plist */,
+				26A6B86EE18608A90A42CBA8BE75BE0C /* Pods-RTPopAnimationTests-dummy.m */,
+				1627C42BC0728834A158BAF48A355552 /* Pods-RTPopAnimationTests-frameworks.sh */,
+				9BCE0AF1D7497C41F69FD6971700B501 /* Pods-RTPopAnimationTests-resources.sh */,
+				BB2758E83214EB084AD10EA5CB81A64B /* Pods-RTPopAnimationTests.debug.xcconfig */,
+				E78FB3C4BC225400189931B05217B37C /* Pods-RTPopAnimationTests.release.xcconfig */,
+			);
+			name = "Pods-RTPopAnimationTests";
+			path = "Target Support Files/Pods-RTPopAnimationTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0482FC58CACC21EDA07D5ED2CE1E924A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF68BCC6FD82C4DF03E75805065504B /* RTAnimatedTransitioningController.h in Headers */,
+				86E963973341C0F6664BCFF67748DF34 /* RTPopAnimatedDelegate.h in Headers */,
+				85D40E08837986402F4CC229507304FA /* RTPopPresentationController.h in Headers */,
+				A2859461F81B6A5C7B4157962CF20486 /* RTTransitioningDelegateCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F6F917368BDCE638238388B2D5E91DC /* Pods-RTPopAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A3AC96D5A53876205566C7055F36A7 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimation" */;
+			buildPhases = (
+				2E0B35347CD65D6DD5A52E168461BF2C /* Sources */,
+				A40249CAE2E1D34537165FA3D015CD40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437219DD3286245E32230525E8DC770B /* PBXTargetDependency */,
+			);
+			name = "Pods-RTPopAnimation";
+			productName = "Pods-RTPopAnimation";
+			productReference = 85FD745193468591B6DF2F6BB0C56AE5 /* libPods-RTPopAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51550E2D62D69241257848C151451C72 /* Pods-RTPopAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B150DC6DDCBE32677CAED3E62BDB9160 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimationTests" */;
+			buildPhases = (
+				96BFB29C3A85A8C5B3252F2D64E5B41A /* Sources */,
+				34E52326715235431677BE6B4D73229B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F88EFFFC57D77847B3A1A54872CEBB /* PBXTargetDependency */,
+			);
+			name = "Pods-RTPopAnimationTests";
+			productName = "Pods-RTPopAnimationTests";
+			productReference = 7A28ACE0614C6B9B244ED8DF8C5A0475 /* libPods-RTPopAnimationTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC6AAA1200110B1D2F7991D4D8E5811A /* RTAnimatedTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A62F6BFFCAE2FF4AAA7F442A16202B /* Build configuration list for PBXNativeTarget "RTAnimatedTransition" */;
+			buildPhases = (
+				C2F4103A09B4BD9E11D753F1DCAB09B8 /* Sources */,
+				779229CB2AA22067CDF1420C17D950C8 /* Frameworks */,
+				0482FC58CACC21EDA07D5ED2CE1E924A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTAnimatedTransition;
+			productName = RTAnimatedTransition;
+			productReference = 7FD276B04497F9582BF8B2F7B6E1EC0A /* libRTAnimatedTransition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8E77B2D3DA368203F9618381FCD1AB2 /* Pods-RTPopAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C73D470169BD3A1E50A764D56C770 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimationUITests" */;
+			buildPhases = (
+				3A177A7934EC070FA247AB88FFE521BC /* Sources */,
+				440F3084B6406567BB9BB4F78BFE769E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658FDA3921EA6C20FEEE142717F5E527 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTPopAnimationUITests";
+			productName = "Pods-RTPopAnimationUITests";
+			productReference = 8536C6C29FDD785D676B402FF268F620 /* libPods-RTPopAnimationUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B02912152AF024F38A7CD2F2BE4CF891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6F917368BDCE638238388B2D5E91DC /* Pods-RTPopAnimation */,
+				51550E2D62D69241257848C151451C72 /* Pods-RTPopAnimationTests */,
+				B8E77B2D3DA368203F9618381FCD1AB2 /* Pods-RTPopAnimationUITests */,
+				AC6AAA1200110B1D2F7991D4D8E5811A /* RTAnimatedTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0B35347CD65D6DD5A52E168461BF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D100C1E0AE342767930450ECE6F36122 /* Pods-RTPopAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A177A7934EC070FA247AB88FFE521BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF28EF6E54C4A105EE1C845DC33E1E97 /* Pods-RTPopAnimationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFB29C3A85A8C5B3252F2D64E5B41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFA1F23FEFA6F62C2E7325E4582B11D /* Pods-RTPopAnimationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F4103A09B4BD9E11D753F1DCAB09B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63B5BFB6F38F6AEE9A46B161F64D2B2 /* RTAnimatedTransition-dummy.m in Sources */,
+				B274BE44C7811444AD7841D9AD3BD5FA /* RTAnimatedTransitioningController.m in Sources */,
+				CE04A2B6D24FBAE9C6F6524C2BFF7268 /* RTPopPresentationController.m in Sources */,
+				2C8A78DECD14E14CB52780CF3B2B881B /* RTTransitioningDelegateCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437219DD3286245E32230525E8DC770B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTAnimatedTransition;
+			target = AC6AAA1200110B1D2F7991D4D8E5811A /* RTAnimatedTransition */;
+			targetProxy = EAC7EC4364FAA92E8EC71D0C4DB7D9C7 /* PBXContainerItemProxy */;
+		};
+		658FDA3921EA6C20FEEE142717F5E527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTPopAnimation";
+			target = 1F6F917368BDCE638238388B2D5E91DC /* Pods-RTPopAnimation */;
+			targetProxy = DE0CC35ADCCC8FC049F88A8B4ACD029C /* PBXContainerItemProxy */;
+		};
+		69F88EFFFC57D77847B3A1A54872CEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTPopAnimation";
+			target = 1F6F917368BDCE638238388B2D5E91DC /* Pods-RTPopAnimation */;
+			targetProxy = 2461E4C6517020FD270EBA6ED8F1FD94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		096C7A8152F164A0A8008BCA519DD810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAAD0AF7E1D5569C4632D9106AB7693 /* RTAnimatedTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RTAnimatedTransition/RTAnimatedTransition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RTAnimatedTransition;
+				PRODUCT_NAME = RTAnimatedTransition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A039A8AD14879D0D8E4357E14F6E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27307F1DEFAA8E80BB7B5AD34B3DA066 /* Pods-RTPopAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CAAC0749732885E2991F4F2ADE5B53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65EEDA47058080BBA5E86FEADB727E1 /* Pods-RTPopAnimation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7029BC2E460E1811D51F6EF699E292BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0250013F78B8D9ABB04E557258A4E029 /* Pods-RTPopAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		947055E184C7493868E1CC4C8F0B1FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1268A7777F7E32D6E8072EA2379DDF67 /* Pods-RTPopAnimation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7BF284464788B5B9EA57D0A2DFA0A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAAD0AF7E1D5569C4632D9106AB7693 /* RTAnimatedTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RTAnimatedTransition/RTAnimatedTransition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RTAnimatedTransition;
+				PRODUCT_NAME = RTAnimatedTransition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E55BAB418166BBC47E1147CE1A5EC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78FB3C4BC225400189931B05217B37C /* Pods-RTPopAnimationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF686DD390FF444E31B1265D892EA0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2758E83214EB084AD10EA5CB81A64B /* Pods-RTPopAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A62F6BFFCAE2FF4AAA7F442A16202B /* Build configuration list for PBXNativeTarget "RTAnimatedTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BF284464788B5B9EA57D0A2DFA0A8C /* Debug */,
+				096C7A8152F164A0A8008BCA519DD810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B150DC6DDCBE32677CAED3E62BDB9160 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF686DD390FF444E31B1265D892EA0DF /* Debug */,
+				E55BAB418166BBC47E1147CE1A5EC81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A3AC96D5A53876205566C7055F36A7 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAAC0749732885E2991F4F2ADE5B53F /* Debug */,
+				947055E184C7493868E1CC4C8F0B1FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C73D470169BD3A1E50A764D56C770 /* Build configuration list for PBXNativeTarget "Pods-RTPopAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7029BC2E460E1811D51F6EF699E292BE /* Debug */,
+				14A039A8AD14879D0D8E4357E14F6E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

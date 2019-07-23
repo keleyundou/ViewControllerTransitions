@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2759A1B0A7290824CDC52AE7 /* libPods-RTPopAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899A1A141EEABDA2E85CC689 /* libPods-RTPopAnimationTests.a */; };
+		88406A49E4E3666C661D9AC5 /* libPods-RTPopAnimationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C28CD8A1F0F08DC7E109AC87 /* libPods-RTPopAnimationUITests.a */; };
 		9F1C4A4F2240DF37002A3123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4A4E2240DF37002A3123 /* AppDelegate.m */; };
 		9F1C4A522240DF37002A3123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4A512240DF37002A3123 /* ViewController.m */; };
 		9F1C4A552240DF37002A3123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1C4A532240DF37002A3123 /* Main.storyboard */; };
@@ -18,9 +20,7 @@
 		9F1C4B0222421B2D002A3123 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4B0122421B2D002A3123 /* PopViewController.m */; };
 		9F1C4B05224222DD002A3123 /* PopStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4B04224222DD002A3123 /* PopStoryboardSegue.m */; };
 		9F6FC88C224A1F5F004A6EB1 /* SheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6FC88B224A1F5F004A6EB1 /* SheetViewController.m */; };
-		9F7B732922E6C98000DB86FD /* RTPopPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */; };
-		9F7B732A22E6C98000DB86FD /* RTTransitioningDelegateCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */; };
-		9F7B732B22E6C98000DB86FD /* RTAnimatedTransitioningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */; };
+		E9385F7F35E10E09D195E927 /* libPods-RTPopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E591CCA349FF93B365B22C5 /* libPods-RTPopAnimation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F7F6BAFDB15C4C0F96F4588 /* Pods-RTPopAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimationUITests/Pods-RTPopAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20284EF89BF5E2A0CD8B3A04 /* Pods-RTPopAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimationTests/Pods-RTPopAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		3784014031A6D9F0867776BD /* Pods-RTPopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimation/Pods-RTPopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0364E6630EA8681C4D20E1 /* Pods-RTPopAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimationUITests/Pods-RTPopAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E6CD10A43336DD424746D97 /* Pods-RTPopAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimation/Pods-RTPopAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7E591CCA349FF93B365B22C5 /* libPods-RTPopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTPopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899A1A141EEABDA2E85CC689 /* libPods-RTPopAnimationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTPopAnimationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1C4A4A2240DF37002A3123 /* RTPopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTPopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1C4A4D2240DF37002A3123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F1C4A4E2240DF37002A3123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,13 +70,8 @@
 		9F1C4B04224222DD002A3123 /* PopStoryboardSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopStoryboardSegue.m; sourceTree = "<group>"; };
 		9F6FC88A224A1F5F004A6EB1 /* SheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetViewController.h; sourceTree = "<group>"; };
 		9F6FC88B224A1F5F004A6EB1 /* SheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetViewController.m; sourceTree = "<group>"; };
-		9F7B732222E6C98000DB86FD /* RTAnimatedTransitioningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAnimatedTransitioningController.h; sourceTree = "<group>"; };
-		9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPopPresentationController.m; sourceTree = "<group>"; };
-		9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTransitioningDelegateCenter.m; sourceTree = "<group>"; };
-		9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAnimatedTransitioningController.m; sourceTree = "<group>"; };
-		9F7B732622E6C98000DB86FD /* RTPopPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPopPresentationController.h; sourceTree = "<group>"; };
-		9F7B732722E6C98000DB86FD /* RTPopAnimatedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPopAnimatedDelegate.h; sourceTree = "<group>"; };
-		9F7B732822E6C98000DB86FD /* RTTransitioningDelegateCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTransitioningDelegateCenter.h; sourceTree = "<group>"; };
+		B655A0DD14539C0462A0FC91 /* Pods-RTPopAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTPopAnimationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTPopAnimationTests/Pods-RTPopAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28CD8A1F0F08DC7E109AC87 /* libPods-RTPopAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTPopAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9385F7F35E10E09D195E927 /* libPods-RTPopAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2759A1B0A7290824CDC52AE7 /* libPods-RTPopAnimationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88406A49E4E3666C661D9AC5 /* libPods-RTPopAnimationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20807AE34BC70912DCFDECDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3784014031A6D9F0867776BD /* Pods-RTPopAnimation.debug.xcconfig */,
+				5E6CD10A43336DD424746D97 /* Pods-RTPopAnimation.release.xcconfig */,
+				B655A0DD14539C0462A0FC91 /* Pods-RTPopAnimationTests.debug.xcconfig */,
+				20284EF89BF5E2A0CD8B3A04 /* Pods-RTPopAnimationTests.release.xcconfig */,
+				3A0364E6630EA8681C4D20E1 /* Pods-RTPopAnimationUITests.debug.xcconfig */,
+				1F7F6BAFDB15C4C0F96F4588 /* Pods-RTPopAnimationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B4FE33135A1AB4F8D0E3F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E591CCA349FF93B365B22C5 /* libPods-RTPopAnimation.a */,
+				899A1A141EEABDA2E85CC689 /* libPods-RTPopAnimationTests.a */,
+				C28CD8A1F0F08DC7E109AC87 /* libPods-RTPopAnimationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F1C4A412240DF37002A3123 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +132,8 @@
 				9F1C4A652240DF38002A3123 /* RTPopAnimationTests */,
 				9F1C4A702240DF38002A3123 /* RTPopAnimationUITests */,
 				9F1C4A4B2240DF37002A3123 /* Products */,
+				20807AE34BC70912DCFDECDF /* Pods */,
+				4B4FE33135A1AB4F8D0E3F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +150,6 @@
 		9F1C4A4C2240DF37002A3123 /* RTPopAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				9F7B732122E6C98000DB86FD /* AnimatedTransition */,
 				9F1C4A4D2240DF37002A3123 /* AppDelegate.h */,
 				9F1C4A4E2240DF37002A3123 /* AppDelegate.m */,
 				9F1C4A502240DF37002A3123 /* ViewController.h */,
@@ -158,21 +187,6 @@
 			path = RTPopAnimationUITests;
 			sourceTree = "<group>";
 		};
-		9F7B732122E6C98000DB86FD /* AnimatedTransition */ = {
-			isa = PBXGroup;
-			children = (
-				9F7B732722E6C98000DB86FD /* RTPopAnimatedDelegate.h */,
-				9F7B732222E6C98000DB86FD /* RTAnimatedTransitioningController.h */,
-				9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */,
-				9F7B732622E6C98000DB86FD /* RTPopPresentationController.h */,
-				9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */,
-				9F7B732822E6C98000DB86FD /* RTTransitioningDelegateCenter.h */,
-				9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */,
-			);
-			name = AnimatedTransition;
-			path = ../../AnimatedTransition;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1C4A762240DF38002A3123 /* Build configuration list for PBXNativeTarget "RTPopAnimation" */;
 			buildPhases = (
+				F5019CA4CBC9CB15851D98F6 /* [CP] Check Pods Manifest.lock */,
 				9F1C4A462240DF37002A3123 /* Sources */,
 				9F1C4A472240DF37002A3123 /* Frameworks */,
 				9F1C4A482240DF37002A3123 /* Resources */,
@@ -197,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1C4A792240DF38002A3123 /* Build configuration list for PBXNativeTarget "RTPopAnimationTests" */;
 			buildPhases = (
+				2CCA4BFD89F81517309EC33B /* [CP] Check Pods Manifest.lock */,
 				9F1C4A5E2240DF38002A3123 /* Sources */,
 				9F1C4A5F2240DF38002A3123 /* Frameworks */,
 				9F1C4A602240DF38002A3123 /* Resources */,
@@ -215,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1C4A7C2240DF38002A3123 /* Build configuration list for PBXNativeTarget "RTPopAnimationUITests" */;
 			buildPhases = (
+				033523D20AF06409C71EA187 /* [CP] Check Pods Manifest.lock */,
 				9F1C4A692240DF38002A3123 /* Sources */,
 				9F1C4A6A2240DF38002A3123 /* Frameworks */,
 				9F1C4A6B2240DF38002A3123 /* Resources */,
@@ -298,6 +315,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		033523D20AF06409C71EA187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTPopAnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CCA4BFD89F81517309EC33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTPopAnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5019CA4CBC9CB15851D98F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTPopAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F1C4A462240DF37002A3123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -305,13 +379,10 @@
 			files = (
 				9F6FC88C224A1F5F004A6EB1 /* SheetViewController.m in Sources */,
 				9F1C4B0222421B2D002A3123 /* PopViewController.m in Sources */,
-				9F7B732922E6C98000DB86FD /* RTPopPresentationController.m in Sources */,
 				9F1C4A522240DF37002A3123 /* ViewController.m in Sources */,
 				9F1C4B05224222DD002A3123 /* PopStoryboardSegue.m in Sources */,
-				9F7B732A22E6C98000DB86FD /* RTTransitioningDelegateCenter.m in Sources */,
 				9F1C4A5D2240DF38002A3123 /* main.m in Sources */,
 				9F1C4A4F2240DF37002A3123 /* AppDelegate.m in Sources */,
-				9F7B732B22E6C98000DB86FD /* RTAnimatedTransitioningController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +551,7 @@
 		};
 		9F1C4A772240DF38002A3123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3784014031A6D9F0867776BD /* Pods-RTPopAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +569,7 @@
 		};
 		9F1C4A782240DF38002A3123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6CD10A43336DD424746D97 /* Pods-RTPopAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +587,7 @@
 		};
 		9F1C4A7A2240DF38002A3123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B655A0DD14539C0462A0FC91 /* Pods-RTPopAnimationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +606,7 @@
 		};
 		9F1C4A7B2240DF38002A3123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20284EF89BF5E2A0CD8B3A04 /* Pods-RTPopAnimationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +625,7 @@
 		};
 		9F1C4A7D2240DF38002A3123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0364E6630EA8681C4D20E1 /* Pods-RTPopAnimationUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RTPopAnimationUITests/Info.plist;
@@ -567,6 +643,7 @@
 		};
 		9F1C4A7E2240DF38002A3123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7F6BAFDB15C4C0F96F4588 /* Pods-RTPopAnimationUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RTPopAnimationUITests/Info.plist;

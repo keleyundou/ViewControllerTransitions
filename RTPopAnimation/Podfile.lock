@@ -1,0 +1,16 @@
+PODS:
+  - RTAnimatedTransition (0.0.1)
+
+DEPENDENCIES:
+  - RTAnimatedTransition (from `../`)
+
+EXTERNAL SOURCES:
+  RTAnimatedTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTAnimatedTransition: 37ce83cacae5a0318bd48cf35c2e843175871f02
+
+PODFILE CHECKSUM: 06463afc0431a065002294e3e164478238c3bf49
+
+COCOAPODS: 1.5.3
