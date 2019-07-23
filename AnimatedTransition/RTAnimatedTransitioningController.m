@@ -1,8 +1,8 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
- * FILENAME:     AnimatedTransitioningController.m
+ * FILENAME:     RTAnimatedTransitioningController.m
  * AUTHER:       ColaBean
  * CREATE TIME:  2019/3/20
  * MODIFY TIME:
@@ -10,18 +10,18 @@
  \**********************************************************/
 //
 
-#import "AnimatedTransitioningController.h"
+#import "RTAnimatedTransitioningController.h"
 
-@implementation AnimatedTransitioningController
+@implementation RTAnimatedTransitioningController
 
-- (instancetype)initWithTransitionStyle:(AnimationTransitionStyle)style {
+- (instancetype)initWithTransitionStyle:(RTAnimationTransitionStyle)style {
     if (self = [super init]) {
         _transitionStyle = style;
     }
     return self;
 }
 
-+ (instancetype)animatedTransitioningStyle:(AnimationTransitionStyle)style {
++ (instancetype)animatedTransitioningStyle:(RTAnimationTransitionStyle)style {
     return [[self alloc] initWithTransitionStyle:style];
 }
 
@@ -47,7 +47,7 @@
     NSTimeInterval duration = [self transitionDuration:ctx];
     
     switch (_transitionStyle) {
-        case AnimationTransitionStyleAlert:
+        case RTAnimationTransitionStyleAlert:
             if (toVCtrl.isBeingPresented) {
                 [self presentView:toVCtrl.view duration:duration completion:^(BOOL finished) {
                     [ctx completeTransition:YES];
@@ -58,7 +58,7 @@
                 }];
             }
             break;
-        case AnimationTransitionStyleSheet:
+        case RTAnimationTransitionStyleSheet:
             if (toVCtrl.isBeingPresented) {
                 [self flipFromBottomWithView:toVCtrl.view duration:duration completion:^(BOOL finished) {
                     [ctx completeTransition:YES];

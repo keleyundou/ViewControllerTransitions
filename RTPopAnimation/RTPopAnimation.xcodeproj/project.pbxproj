@@ -18,9 +18,9 @@
 		9F1C4B0222421B2D002A3123 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4B0122421B2D002A3123 /* PopViewController.m */; };
 		9F1C4B05224222DD002A3123 /* PopStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C4B04224222DD002A3123 /* PopStoryboardSegue.m */; };
 		9F6FC88C224A1F5F004A6EB1 /* SheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6FC88B224A1F5F004A6EB1 /* SheetViewController.m */; };
-		9FF7D532224B50C800F20A65 /* PopPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7D52C224B50C800F20A65 /* PopPresentationController.m */; };
-		9FF7D533224B50C800F20A65 /* TransitioningDelegateCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7D52D224B50C800F20A65 /* TransitioningDelegateCenter.m */; };
-		9FF7D534224B50C800F20A65 /* AnimatedTransitioningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7D52E224B50C800F20A65 /* AnimatedTransitioningController.m */; };
+		9F7B732922E6C98000DB86FD /* RTPopPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */; };
+		9F7B732A22E6C98000DB86FD /* RTTransitioningDelegateCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */; };
+		9F7B732B22E6C98000DB86FD /* RTAnimatedTransitioningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +63,13 @@
 		9F1C4B04224222DD002A3123 /* PopStoryboardSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopStoryboardSegue.m; sourceTree = "<group>"; };
 		9F6FC88A224A1F5F004A6EB1 /* SheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetViewController.h; sourceTree = "<group>"; };
 		9F6FC88B224A1F5F004A6EB1 /* SheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetViewController.m; sourceTree = "<group>"; };
-		9FF7D52B224B50C800F20A65 /* AnimatedTransitioningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioningController.h; sourceTree = "<group>"; };
-		9FF7D52C224B50C800F20A65 /* PopPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPresentationController.m; sourceTree = "<group>"; };
-		9FF7D52D224B50C800F20A65 /* TransitioningDelegateCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitioningDelegateCenter.m; sourceTree = "<group>"; };
-		9FF7D52E224B50C800F20A65 /* AnimatedTransitioningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioningController.m; sourceTree = "<group>"; };
-		9FF7D52F224B50C800F20A65 /* PopPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPresentationController.h; sourceTree = "<group>"; };
-		9FF7D530224B50C800F20A65 /* PopAnimatedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimatedDelegate.h; sourceTree = "<group>"; };
-		9FF7D531224B50C800F20A65 /* TransitioningDelegateCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitioningDelegateCenter.h; sourceTree = "<group>"; };
+		9F7B732222E6C98000DB86FD /* RTAnimatedTransitioningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAnimatedTransitioningController.h; sourceTree = "<group>"; };
+		9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPopPresentationController.m; sourceTree = "<group>"; };
+		9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTransitioningDelegateCenter.m; sourceTree = "<group>"; };
+		9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAnimatedTransitioningController.m; sourceTree = "<group>"; };
+		9F7B732622E6C98000DB86FD /* RTPopPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPopPresentationController.h; sourceTree = "<group>"; };
+		9F7B732722E6C98000DB86FD /* RTPopAnimatedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPopAnimatedDelegate.h; sourceTree = "<group>"; };
+		9F7B732822E6C98000DB86FD /* RTTransitioningDelegateCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTransitioningDelegateCenter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		9F1C4A4C2240DF37002A3123 /* RTPopAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				9FF7D52A224B50C800F20A65 /* AnimatedTransition */,
+				9F7B732122E6C98000DB86FD /* AnimatedTransition */,
 				9F1C4A4D2240DF37002A3123 /* AppDelegate.h */,
 				9F1C4A4E2240DF37002A3123 /* AppDelegate.m */,
 				9F1C4A502240DF37002A3123 /* ViewController.h */,
@@ -158,19 +158,20 @@
 			path = RTPopAnimationUITests;
 			sourceTree = "<group>";
 		};
-		9FF7D52A224B50C800F20A65 /* AnimatedTransition */ = {
+		9F7B732122E6C98000DB86FD /* AnimatedTransition */ = {
 			isa = PBXGroup;
 			children = (
-				9FF7D530224B50C800F20A65 /* PopAnimatedDelegate.h */,
-				9FF7D531224B50C800F20A65 /* TransitioningDelegateCenter.h */,
-				9FF7D52D224B50C800F20A65 /* TransitioningDelegateCenter.m */,
-				9FF7D52F224B50C800F20A65 /* PopPresentationController.h */,
-				9FF7D52C224B50C800F20A65 /* PopPresentationController.m */,
-				9FF7D52B224B50C800F20A65 /* AnimatedTransitioningController.h */,
-				9FF7D52E224B50C800F20A65 /* AnimatedTransitioningController.m */,
+				9F7B732722E6C98000DB86FD /* RTPopAnimatedDelegate.h */,
+				9F7B732222E6C98000DB86FD /* RTAnimatedTransitioningController.h */,
+				9F7B732522E6C98000DB86FD /* RTAnimatedTransitioningController.m */,
+				9F7B732622E6C98000DB86FD /* RTPopPresentationController.h */,
+				9F7B732322E6C98000DB86FD /* RTPopPresentationController.m */,
+				9F7B732822E6C98000DB86FD /* RTTransitioningDelegateCenter.h */,
+				9F7B732422E6C98000DB86FD /* RTTransitioningDelegateCenter.m */,
 			);
-			path = AnimatedTransition;
-			sourceTree = SOURCE_ROOT;
+			name = AnimatedTransition;
+			path = ../../AnimatedTransition;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -304,13 +305,13 @@
 			files = (
 				9F6FC88C224A1F5F004A6EB1 /* SheetViewController.m in Sources */,
 				9F1C4B0222421B2D002A3123 /* PopViewController.m in Sources */,
-				9FF7D532224B50C800F20A65 /* PopPresentationController.m in Sources */,
+				9F7B732922E6C98000DB86FD /* RTPopPresentationController.m in Sources */,
 				9F1C4A522240DF37002A3123 /* ViewController.m in Sources */,
 				9F1C4B05224222DD002A3123 /* PopStoryboardSegue.m in Sources */,
-				9FF7D533224B50C800F20A65 /* TransitioningDelegateCenter.m in Sources */,
+				9F7B732A22E6C98000DB86FD /* RTTransitioningDelegateCenter.m in Sources */,
 				9F1C4A5D2240DF38002A3123 /* main.m in Sources */,
 				9F1C4A4F2240DF37002A3123 /* AppDelegate.m in Sources */,
-				9FF7D534224B50C800F20A65 /* AnimatedTransitioningController.m in Sources */,
+				9F7B732B22E6C98000DB86FD /* RTAnimatedTransitioningController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +483,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA3TY6H7X2;
 				INFOPLIST_FILE = RTPopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eju.RTPopAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colabean.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,12 +500,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA3TY6H7X2;
 				INFOPLIST_FILE = RTPopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eju.RTPopAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colabean.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

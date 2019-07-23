@@ -1,4 +1,4 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
@@ -11,11 +11,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PopAnimatedDelegate.h"
+#import "RTPopAnimatedDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PopViewController : UIViewController<PopAnimatedDelegate>
+@interface PopViewController : UIViewController<RTPopAnimatedDelegate>
 
 @end
 

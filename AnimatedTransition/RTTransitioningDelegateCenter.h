@@ -1,8 +1,8 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
- * FILENAME:     PopPresentationController.h
+ * FILENAME:     RTTransitioningDelegateCenter.h
  * AUTHER:       ColaBean
  * CREATE TIME:  2019/3/20
  * MODIFY TIME:
@@ -10,13 +10,13 @@
  \**********************************************************/
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PopPresentationController : UIPresentationController
+@interface RTTransitioningDelegateCenter : NSObject<UIViewControllerTransitioningDelegate>
 
-@property (nonatomic, strong) UIView *dimmingView;
 @end
 
 NS_ASSUME_NONNULL_END

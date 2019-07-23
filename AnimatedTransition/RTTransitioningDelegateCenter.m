@@ -1,8 +1,8 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
- * FILENAME:     TransitioningDelegateCenter.m
+ * FILENAME:     RTTransitioningDelegateCenter.m
  * AUTHER:       ColaBean
  * CREATE TIME:  2019/3/20
  * MODIFY TIME:
@@ -10,24 +10,24 @@
  \**********************************************************/
 //
 
-#import "TransitioningDelegateCenter.h"
-#import "AnimatedTransitioningController.h"
-#import "PopPresentationController.h"
+#import "RTTransitioningDelegateCenter.h"
+#import "RTAnimatedTransitioningController.h"
+#import "RTPopPresentationController.h"
 
-@implementation TransitioningDelegateCenter
+@implementation RTTransitioningDelegateCenter
 
 #pragma mark - UIViewControllerTransitioningDelegate
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(id<PopAnimatedDelegate>)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(id<RTPopAnimatedDelegate>)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     NSString *desc = [NSString stringWithFormat:@"%@ should conform to PopAnimatedDelegate protocol.", NSStringFromClass(presented.class)];
-    NSAssert([presented conformsToProtocol:@protocol(PopAnimatedDelegate)], desc);
+    NSAssert([presented conformsToProtocol:@protocol(RTPopAnimatedDelegate)], desc);
     id <UIViewControllerAnimatedTransitioning>animatedTransitioning;
-    animatedTransitioning = [AnimatedTransitioningController animatedTransitioningStyle:[presented animatedTransitionStyle]];
+    animatedTransitioning = [RTAnimatedTransitioningController animatedTransitioningStyle:[presented animatedTransitionStyle]];
     return animatedTransitioning;
 }
 
-- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(id<PopAnimatedDelegate>)dismissed {
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(id<RTPopAnimatedDelegate>)dismissed {
     id <UIViewControllerAnimatedTransitioning>animatedTransitioning;
-    animatedTransitioning = [AnimatedTransitioningController animatedTransitioningStyle:[dismissed animatedTransitionStyle]];
+    animatedTransitioning = [RTAnimatedTransitioningController animatedTransitioningStyle:[dismissed animatedTransitionStyle]];
     return animatedTransitioning;
 }
 
@@ -36,7 +36,7 @@
 //- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id <UIViewControllerAnimatedTransitioning>)animator;
 
 - (nullable UIPresentationController *)presentationControllerForPresentedViewController:(UIViewController *)presented presentingViewController:(nullable UIViewController *)presenting sourceViewController:(UIViewController *)source NS_AVAILABLE_IOS(8_0); {
-    PopPresentationController *pp = [[PopPresentationController alloc] initWithPresentedViewController:presented presentingViewController:presenting];
+    RTPopPresentationController *pp = [[RTPopPresentationController alloc] initWithPresentedViewController:presented presentingViewController:presenting];
     return pp;
 }
 

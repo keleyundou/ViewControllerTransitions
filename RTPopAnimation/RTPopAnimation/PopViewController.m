@@ -1,4 +1,4 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
@@ -83,8 +83,8 @@
                              completion:nil];
 }
 
-- (AnimationTransitionStyle)animatedTransitionStyle {
-    return AnimationTransitionStyleAlert;
+- (RTAnimationTransitionStyle)animatedTransitionStyle {
+    return RTAnimationTransitionStyleAlert;
 }
 
 @end

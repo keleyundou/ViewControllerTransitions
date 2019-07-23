@@ -1,8 +1,8 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
- * FILENAME:     PopPresentationController.m
+ * FILENAME:     RTPopPresentationController.m
  * AUTHER:       ColaBean
  * CREATE TIME:  2019/3/20
  * MODIFY TIME:
@@ -10,9 +10,9 @@
  \**********************************************************/
 //
 
-#import "PopPresentationController.h"
+#import "RTPopPresentationController.h"
 
-@implementation PopPresentationController
+@implementation RTPopPresentationController
 
 - (void)presentationTransitionWillBegin {
     // Add a custom dimming view behind the presented view controller's view

@@ -1,4 +1,4 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
@@ -15,10 +15,10 @@
 
 #import "PopViewController.h"
 #import "PopStoryboardSegue.h"
-#import "TransitioningDelegateCenter.h"
+#import "RTTransitioningDelegateCenter.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) TransitioningDelegateCenter *trasitioningDelegateCenter;
+@property (nonatomic, strong) RTTransitioningDelegateCenter *trasitioningDelegateCenter;
 @end
 
 @implementation ViewController
@@ -42,9 +42,9 @@
      
  }
 
-- (TransitioningDelegateCenter *)trasitioningDelegateCenter {
+- (RTTransitioningDelegateCenter *)trasitioningDelegateCenter {
     if (!_trasitioningDelegateCenter) {
-        _trasitioningDelegateCenter = [TransitioningDelegateCenter new];
+        _trasitioningDelegateCenter = [RTTransitioningDelegateCenter new];
     }
     return _trasitioningDelegateCenter;
 }

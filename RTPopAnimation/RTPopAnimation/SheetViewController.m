@@ -1,4 +1,4 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
@@ -36,8 +36,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (AnimationTransitionStyle)animatedTransitionStyle {
-    return AnimationTransitionStyleSheet;
+- (RTAnimationTransitionStyle)animatedTransitionStyle {
+    return RTAnimationTransitionStyleSheet;
 }
 
 @end

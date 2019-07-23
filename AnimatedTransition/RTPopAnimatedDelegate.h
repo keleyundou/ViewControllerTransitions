@@ -1,8 +1,8 @@
-// Copyright © 2019 LEJU.
+// Copyright © 2019 ColaBean.
 // All rights reserved.
 /**********************************************************\
  * PROJECTNAME:  RTPopAnimation
- * FILENAME:     PopAnimatedDelegate.h
+ * FILENAME:     RTPopAnimatedDelegate.h
  * AUTHER:       ColaBean
  * CREATE TIME:  2019/3/27
  * MODIFY TIME:
@@ -14,14 +14,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, AnimationTransitionStyle) {
-    AnimationTransitionStyleAlert,
-    AnimationTransitionStyleSheet,
+typedef NS_ENUM(NSUInteger, RTAnimationTransitionStyle) {
+    RTAnimationTransitionStyleAlert,
+    RTAnimationTransitionStyleSheet,
 };
 
-@protocol PopAnimatedDelegate <NSObject>
+@protocol RTPopAnimatedDelegate <NSObject>
 
-- (AnimationTransitionStyle)animatedTransitionStyle;
+- (RTAnimationTransitionStyle)animatedTransitionStyle;
 
 @end
 

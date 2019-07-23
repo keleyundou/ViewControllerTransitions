@@ -1,27 +1,32 @@
 ViewControllerTransitions
 =========================
 
-## Usage
+## 核心思想
+抽离转场动画，使用户只需关心UI样式。
 
-Custom ViewController should be conform to `PopAnimatedDelegate`.
+2种风格样式：`RTAnimationTransitionStyleAlert`、`RTAnimationTransitionStyleSheet`。
 
-current support transition style:
+<div style="text-align: center">
+        <img src="./Screenshot/Alert.png" alt="Alert" width="20%" height="20%">
+        <img src="./Screenshot/Sheet.png" alt="Sheet" width="20%" height="20%">
+</div>
 
-- Alert
-- Sheet
+## 使用方法
+
+使自定义的`UIViewController`遵守`RTPopAnimatedDelegate`协议。
 
 ```objc
 
-#import "PopAnimatedDelegate.h"
+#import "RTPopAnimatedDelegate.h"
 
-@interface SheetViewController : UIViewController<PopAnimatedDelegate>
+@interface SheetViewController : UIViewController<RTPopAnimatedDelegate>
 
 @end
 
 ...
 
-- (AnimationTransitionStyle)animatedTransitionStyle {
-    return AnimationTransitionStyleSheet;
+- (RTAnimationTransitionStyle)animatedTransitionStyle {
+    return RTAnimationTransitionStyleSheet;
 }
 
 
